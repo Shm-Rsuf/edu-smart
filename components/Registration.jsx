@@ -17,7 +17,7 @@ const Registration = () => {
             className='w-full h-full object-cover rounded-tl-md rounded-bl-md'
           />
         </div>
-        <div className='registration-form bg-[#E9F1FA]'>
+        <div className='registration-form bg-[#E9F1FA] rounded-tr-md rounded-br-md'>
           <div className=''>
             <form className='p-6 rounded shadow-md w-full'>
               {/* Role Selection */}
@@ -101,7 +101,10 @@ const Registration = () => {
               {/* Sign In Link */}
               <p className='text-sm text-center text-[#092a67]'>
                 Already have an account?{" "}
-                <Link href='/login' className='text-[#092a67] hover:underline duration-300'>
+                <Link
+                  href='/login'
+                  className='text-[#092a67] hover:underline duration-300'
+                >
                   Login
                 </Link>
               </p>

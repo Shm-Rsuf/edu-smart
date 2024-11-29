@@ -7,7 +7,7 @@ export const metadata = {
 };
 const LoginPage = () => {
   return (
-    <div className='login-form container mx-auto p-4 mt-10 w-[50%]'>
+    <div className='login-form container mx-auto p-4 mt-10 w-[50%] sm:w-[100%]'>
       <div className='bg-[#E9F1FA] w-full flex justify-center items-center py-5'>
         <form className='p-6 rounded shadow-md w-[65%]'>
           {/* Username/Email */}

@@ -56,7 +56,7 @@ const Navbar = () => {
         </ul>
 
         <div className='text-[#092a67] bg-lime-400 px-4 py-2 rounded hover:bg-lime-500 font-bold duration-300'>
-          <Link href='/'>Login</Link>
+          <Link href='/login'>Login</Link>
         </div>
       </nav>
     </header>

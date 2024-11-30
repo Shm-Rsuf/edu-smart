@@ -1,6 +1,8 @@
-import Image from "next/image";
-import DashboardNavbar from "./_components/Dashboard-Nav";
 import Footer from "@/components/Footer";
+import Image from "next/image";
+import { FaUniversity } from "react-icons/fa";
+import DashboardNavbar from "./_components/Dashboard-Nav";
+import DashboardSidebar from "./_components/Sidebar";
 
 export const metadata = {
   title: "dashboard page",
@@ -17,41 +19,19 @@ const Dashboard = () => {
           </span>
         </div>
 
-        <ul className='mt-4 text-white'>
-          <li className='py-2 px-4 hover:text-[#092A67] hover:bg-lime-500 flex justify-start items-center cursor-pointer duration-300'>
-            Dashboard
-          </li>
-          <li className='py-2 px-4 hover:text-[#092A67] hover:bg-lime-500 flex justify-start items-center cursor-pointer duration-300'>
-            Universities
-          </li>
-          <li className='py-2 px-4 hover:text-[#092A67] hover:bg-lime-500 flex justify-start items-center cursor-pointer duration-300'>
-            Packages
-          </li>
-          <li className='py-2 px-4 hover:text-[#092A67] hover:bg-lime-500 flex justify-start items-center cursor-pointer duration-300'>
-            Agents
-          </li>
-          <li className='py-2 px-4 hover:text-[#092A67] hover:bg-lime-500 flex justify-start items-center cursor-pointer duration-300'>
-            Students
-          </li>
-          <li className='py-2 px-4 hover:text-[#092A67] hover:bg-lime-500 flex justify-start items-center cursor-pointer duration-300'>
-            Settings
-          </li>
-          <li className='py-2 px-4 hover:text-[#092A67] hover:bg-lime-500 flex justify-start items-center cursor-pointer duration-300'>
-            Contact Us
-          </li>
-        </ul>
+        <DashboardSidebar />
       </div>
       <div className='col-span-6'>
         <DashboardNavbar />
-        <div className='p-3'>
-          <h4 className='text-2xl font-bold text-[#092a67] pt-2'>
-            Add New Universities
+        <div className='p-4'>
+          <h4 className='text-2xl font-bold text-[#092a67] pt-2 flex items-center gap-2'>
+            <span> Add New Universities</span> <FaUniversity />
           </h4>
           <p className='text-[#092a67]'>
             Note: Star (*) marked fields are required to fill.
           </p>
 
-          <form className='grid grid-cols-5 gap-4 p-2 bg-[#E9F1FA] my-5'>
+          <form className='grid grid-cols-5 gap-4 p-4 bg-[#E9F1FA] my-5'>
             <div className='grid-cols-1'>
               <div className='form-img border p-2 flex flex-col gap-2'>
                 <label htmlFor='image' className='block font-bold'>

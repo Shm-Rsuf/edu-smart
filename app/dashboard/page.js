@@ -1,5 +1,6 @@
 import Image from "next/image";
 import DashboardNavbar from "./_components/Dashboard-Nav";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "dashboard page",
@@ -8,7 +9,7 @@ export const metadata = {
 const Dashboard = () => {
   return (
     <div className='mx-auto min-h-screen grid grid-cols-7 '>
-      <div className='left-side col-span-1 bg-[#092A67] h-screen'>
+      <div className='left-side col-span-1 bg-[#092A67] min-h-screen'>
         {/* Sticky Navbar */}
         <div className='sticky top-0 left-0 bg-[#092A67] h-20 flex justify-center items-center border-b-[1px] border-gray-200 z-10'>
           <span className='text-white font-bold text-lg'>
@@ -359,6 +360,8 @@ const Dashboard = () => {
               </div>
             </div>
           </form>
+
+          <Footer />
         </div>
       </div>
     </div>

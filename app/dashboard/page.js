@@ -131,7 +131,10 @@ const Dashboard = () => {
             </div>
             <div className='col-span-4'>
               <div className='form-university p-2 rounded'>
-                <label htmlFor='university' className='block font-bold text-[#092a67]'>
+                <label
+                  htmlFor='university'
+                  className='block font-bold text-[#092a67]'
+                >
                   University Name
                   <div className='mt-2'>
                     <input
@@ -145,7 +148,10 @@ const Dashboard = () => {
                 </label>
               </div>
               <div className='form-description p-2 rounded'>
-                <label htmlFor='description' className='block font-bold text-[#092a67]'>
+                <label
+                  htmlFor='description'
+                  className='block font-bold text-[#092a67]'
+                >
                   Description
                   <div className='mt-2'>
                     <textarea
@@ -163,7 +169,10 @@ const Dashboard = () => {
                 <div className='flex gap-4'>
                   {/* Address 1 */}
                   <div className='w-1/2'>
-                    <label htmlFor='address-1' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='address-1'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       Address 1
                     </label>
                     <input
@@ -177,7 +186,10 @@ const Dashboard = () => {
 
                   {/* Address 2 */}
                   <div className='w-1/2'>
-                    <label htmlFor='address-2' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='address-2'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       Address 2
                     </label>
                     <input
@@ -195,7 +207,10 @@ const Dashboard = () => {
                 <div className='flex gap-4'>
                   {/* Address 1 */}
                   <div className='w-1/2'>
-                    <label htmlFor='address-1' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='address-1'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       Contact Number
                     </label>
                     <input
@@ -209,7 +224,10 @@ const Dashboard = () => {
 
                   {/* Address 2 */}
                   <div className='w-1/2'>
-                    <label htmlFor='address-2' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='address-2'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       Official Email
                     </label>
                     <input
@@ -227,7 +245,10 @@ const Dashboard = () => {
                 <div className='flex gap-4'>
                   {/* Address 1 */}
                   <div className='w-1/2'>
-                    <label htmlFor='address-1' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='address-1'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       Website
                     </label>
                     <input
@@ -241,7 +262,10 @@ const Dashboard = () => {
 
                   {/* Address 2 */}
                   <div className='w-1/2'>
-                    <label htmlFor='country' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='country'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       Country
                     </label>
                     <select
@@ -265,7 +289,10 @@ const Dashboard = () => {
                 <div className='flex gap-4'>
                   {/* Address 1 */}
                   <div className='w-1/2'>
-                    <label htmlFor='city' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='city'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       City
                     </label>
                     <select
@@ -283,7 +310,10 @@ const Dashboard = () => {
 
                   {/* Address 2 */}
                   <div className='w-1/2'>
-                    <label htmlFor='state' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='state'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       State
                     </label>
                     <select
@@ -303,7 +333,10 @@ const Dashboard = () => {
                   </div>
 
                   <div className='w-1/2'>
-                    <label htmlFor='address-2' className='block font-bold mb-2 text-[#092a67]'>
+                    <label
+                      htmlFor='address-2'
+                      className='block font-bold mb-2 text-[#092a67]'
+                    >
                       Zep Code
                     </label>
                     <input
@@ -314,6 +347,14 @@ const Dashboard = () => {
                       className='w-full p-2 bg-[#E9F1FA] border border-[#092a67] rounded focus:outline-none'
                     />
                   </div>
+                </div>
+                <div className='my-8'>
+                  <button
+                    type='submit'
+                    className='text-[#092a67] bg-lime-400 px-4 py-2 rounded hover:bg-lime-500 font-bold duration-300'
+                  >
+                    Add University
+                  </button>
                 </div>
               </div>
             </div>

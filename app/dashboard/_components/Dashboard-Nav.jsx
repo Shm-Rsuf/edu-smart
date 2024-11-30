@@ -5,7 +5,7 @@ import { RiBarChartHorizontalLine } from "react-icons/ri";
 
 const DashboardNavbar = () => {
   return (
-    <header className='bg-white shadow-md sticky top-0 left-0'>
+    <header className='bg-white shadow-md sticky top-0 left-0 col-span-4 h-20'>
       <nav className='container mx-auto px-4 flex items-center justify-between h-20'>
         <div className='text-xl font-bold text-[#092a67] cursor-pointer flex justify-center items-center gap-5'>
           <button>

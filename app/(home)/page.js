@@ -1,8 +1,8 @@
 import Registration from "@/components/Registration";
 
 export const metadata = {
-  title: "Home | Register",
-  description: "Home | Register page",
+  title: "Home | Registration page",
+  description: "Home | Registration page",
 };
 const HomePage = () => {
   return <>

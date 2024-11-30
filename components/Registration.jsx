@@ -92,7 +92,7 @@ const Registration = () => {
               <div className='mb-4'>
                 <button
                   type='submit'
-                  className='w-full text-[#092a67] bg-lime-400 hover:bg-lime-500 py-2 px-4 rounded focus:outline-none'
+                  className='w-full text-[#092a67] bg-lime-400 hover:bg-lime-500 py-2 px-4 rounded focus:outline-none duration-300'
                 >
                   Continue to Register
                 </button>

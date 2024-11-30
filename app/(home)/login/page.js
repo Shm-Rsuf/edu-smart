@@ -2,13 +2,13 @@ import Link from "next/link";
 import { FaEyeSlash } from "react-icons/fa";
 
 export const metadata = {
-  title: "Login",
+  title: "Login Page",
   description: "Login page",
 };
 const LoginPage = () => {
   return (
     <div className='login-form container mx-auto p-4 mt-10 sm:w-[60%] w-[100%]'>
-      <div className='bg-[#E9F1FA] w-full flex justify-center items-center py-5'>
+      <div className='bg-[#E9F1FA] w-full flex justify-center items-center py-10'>
         <form className='p-6 rounded shadow-md w-[65%]'>
           {/* Username/Email */}
           <div className='mb-4'>
@@ -51,7 +51,7 @@ const LoginPage = () => {
           <div className='mb-4'>
             <button
               type='submit'
-              className='w-full text-[#092a67] bg-lime-400 hover:bg-lime-500 py-2 px-4 rounded focus:outline-none'
+              className='text-[#092a67] bg-lime-400 px-4 py-2 rounded hover:bg-lime-500 font-bold duration-300'
             >
               Login
             </button>

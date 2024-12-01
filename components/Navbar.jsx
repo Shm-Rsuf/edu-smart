@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className='bg-white shadow-md sticky top-0 left-0'>
+    <header className='bg-white shadow-md sticky top-0 left-0 z-10 h-20'>
       <nav className='container mx-auto px-4 flex items-center justify-between h-20'>
         <div className='text-xl font-bold text-[#092a67] cursor-pointer'>
-        <Link href='/' className='text-[#092a67] font-bold text-lg'>
-              <span className='text-lime-400'>Edu</span>Smart
-            </Link>
+          <Link href='/' className='text-[#092a67] font-bold text-lg'>
+            <span className='text-lime-400'>Edu</span>Smart
+          </Link>
         </div>
 
         <ul className=' hidden md:flex justify-between items-center gap-5 font-bold'>
@@ -17,7 +17,7 @@ const Navbar = () => {
           </li>
 
           <li className='nav-links text-[#092a67] flex items-center font-bold'>
-            <Link href='/packages' className='flex items-center'>
+            <Link href='#' className='flex items-center'>
               <span>Packages</span>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -35,7 +35,7 @@ const Navbar = () => {
           </li>
 
           <li className='nav-links text-[#092a67] flex items-center font-bold'>
-            <Link href='/universities' className='flex items-center'>
+            <Link href='#' className='flex items-center'>
               <span>Universities</span>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -53,7 +53,7 @@ const Navbar = () => {
           </li>
 
           <li className='nav-links text-[#092a67] font-bold'>
-            <Link href='/about'>About</Link>
+            <Link href='#'>About</Link>
           </li>
         </ul>
 

@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-
+import { AuthProvider } from "../../context/AuthContext";
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
         className=""
       >
         <Navbar />
-        {children}
+        <AuthProvider>{children}</AuthProvider>
         <Footer />
       </body>
     </html>

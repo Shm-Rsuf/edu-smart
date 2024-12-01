@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaEyeSlash } from "react-icons/fa";
 import RegistrationImage from "../public/assests/happy.png";
+
 const Registration = () => {
   return (
     <div className='container mx-auto px-4 min-h-screen pt-10'>
@@ -14,13 +15,12 @@ const Registration = () => {
           <Image
             src={RegistrationImage}
             alt='Registration'
-            className='w-full h-full object-cover rounded-tl-md rounded-bl-md'
+            className='w-full h-full object-cover rounded-tl-md rounded-bl-md max-[767px]:rounded-tr-md max-[767px]:rounded-bl-none'
           />
         </div>
         <div className='registration-form bg-[#E9F1FA] rounded-tr-md rounded-br-md'>
           <div className=''>
             <form className='p-6 rounded shadow-md w-full'>
-              {/* Role Selection */}
               <div className='mb-4'>
                 <label
                   htmlFor='role'
@@ -38,7 +38,6 @@ const Registration = () => {
                 </select>
               </div>
 
-              {/* Username/Email */}
               <div className='mb-4'>
                 <label
                   htmlFor='username'
@@ -47,7 +46,7 @@ const Registration = () => {
                   Username/Email
                 </label>
                 <input
-                  type='text'
+                  type='eemail'
                   id='username'
                   name='username'
                   required
@@ -56,7 +55,6 @@ const Registration = () => {
                 />
               </div>
 
-              {/* Password */}
               <div className='mb-4 relative'>
                 <label
                   htmlFor='password'
@@ -75,7 +73,6 @@ const Registration = () => {
                 <FaEyeSlash className='absolute top-[50px] right-3 transform -translate-y-1/2 cursor-pointer' />
               </div>
 
-              {/* Terms and Conditions */}
               <div className='mb-4 flex items-center'>
                 <input
                   type='checkbox'
@@ -88,7 +85,6 @@ const Registration = () => {
                 </label>
               </div>
 
-              {/* Submit Button */}
               <div className='mb-4'>
                 <button
                   type='submit'
@@ -98,7 +94,6 @@ const Registration = () => {
                 </button>
               </div>
 
-              {/* Sign In Link */}
               <p className='text-sm text-center text-[#092a67]'>
                 Already have an account?{" "}
                 <Link

@@ -6,7 +6,9 @@ const Navbar = () => {
     <header className='bg-white shadow-md sticky top-0 left-0'>
       <nav className='container mx-auto px-4 flex items-center justify-between h-20'>
         <div className='text-xl font-bold text-[#092a67] cursor-pointer'>
-          <Link href='/'>Logo</Link>
+        <Link href='/' className='text-[#092a67] font-bold text-lg'>
+              <span className='text-lime-400'>Edu</span>Smart
+            </Link>
         </div>
 
         <ul className=' hidden md:flex justify-between items-center gap-5 font-bold'>

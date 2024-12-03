@@ -46,9 +46,9 @@ const DashboardLayout = ({ children }) => {
       </div>
 
       {/* main content */}
-      <div className='col-span-6 transition-all duration-300'>
+      <div className='col-span-6 transition-all duration-300 w-full'>
         <header className='bg-white shadow-md sticky top-0 left-0 col-span-6 z-10 h-20'>
-          <nav className='container mx-auto px-4 flex items-center justify-between h-20'>
+          <nav className='mx-auto px-4 flex items-center justify-between h-20'>
             <div className='text-xl font-bold text-[#092a67] cursor-pointer flex justify-center items-center gap-5'>
               <button onClick={toggleSidebar}>
                 <RiBarChartHorizontalLine />
